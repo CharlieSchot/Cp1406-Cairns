@@ -1,12 +1,15 @@
-/* -------------------------------- 
+
+	/* -------------------------------- 
 
 Primary style
 
 -------------------------------- */
 *, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-top-style: none;
+}
 
 html {
   font-size: 62.5%; }
@@ -17,7 +20,10 @@ body {
   background-color: #485274; }
 
 a {
-  text-decoration: none; }
+	text-decoration: none;
+	border-style: dotted;
+	border-top-color: #A8494A;
+}
 
 /* -------------------------------- 
 
@@ -383,9 +389,9 @@ main {
     border-bottom: #C2DFFF 1px solid;
 }
 p {
-    font-family: sans-serif;
-    font-size: 12;
-	color:#FFFFFF
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
 }
 div.cell {
 	margin: 10px;
@@ -402,21 +408,21 @@ h1.head {
     margin: 2em auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-h1.boarder {    
+h1.boarder {
 	text-align: center;
-    font-size: 3.8rem;
-    font-weight: 300;
-    color: #ffffff;
-    margin: 2em auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; 
+	font-size: 4.8rem;
+	font-weight: 300;
+	color: #ffffff;
+	margin: 2em auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	border-top: #C2DFFF 1px solid;
-    border-bottom: #C2DFFF 1px solid;
+	border-bottom: #C2DFFF 1px solid;
 	margin-left: 7%;
 	margin-right: 7%;
 	}
 	
-	<!--Footer-->
+	Footer
 	/* The Footer */
 .footer-distributed{
 	background-color: #343c55;
@@ -587,4 +593,6 @@ h1.boarder {
 	}
 	
 	
+	
+
 	
