@@ -1,15 +1,12 @@
-
-	/* -------------------------------- 
+/* -------------------------------- 
 
 Primary style
 
 -------------------------------- */
 *, *::after, *::before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border-top-style: none;
-}
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 html {
   font-size: 62.5%; }
@@ -20,10 +17,7 @@ body {
   background-color: #485274; }
 
 a {
-	text-decoration: none;
-	border-style: dotted;
-	border-top-color: #A8494A;
-}
+  text-decoration: none; }
 
 /* -------------------------------- 
 
@@ -55,6 +49,14 @@ Main Components
     -ms-transform: translateY(80px);
     -o-transform: translateY(80px);
     transform: translateY(80px); }
+.no-js body {
+	width: 100%;
+	height: 50%;
+}
+.no-js body {
+}
+
+
   @media only screen and (min-width: 768px) {
     .cd-header.nav-is-visible {
       -webkit-transform: translateY(170px);
@@ -64,8 +66,12 @@ Main Components
       transform: translateY(170px); } }
 
 .cd-logo {
-  float: left;
-  margin-top: 28px; }
+	float: left;
+	margin-top: 28px;
+	margin-right: 28px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
 
 .cd-3d-nav-trigger {
   position: relative;
@@ -357,13 +363,14 @@ main {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
   main h1 {
-    text-align: center;
-    font-size: 2.4rem;
-    font-weight: 300;
-    color: #ffffff;
-    margin: 2em auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
+	text-align: center;
+	font-size: 3.4rem;
+	font-weight: 300;
+	color: #ffffff;
+	margin: 2em auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
   main.nav-is-visible {
     -webkit-transform: translateY(80px);
     -moz-transform: translateY(80px);
@@ -381,25 +388,66 @@ main {
       font-size: 3.6rem;
        } }
 	h3 {
-    font-family: sans-serif;
-    font-size: 23px;
-    color: black;
-    font-weight: normal;
-    border-top: #C2DFFF 1px solid;
-    border-bottom: #C2DFFF 1px solid;
+	font-family: sans-serif;
+	font-size: 23px;
+	color: #F9F9F9;
+	font-weight: normal;
+	border-top: #C2DFFF 1px solid;
+	border-bottom: #C2DFFF 1px solid;
+	text-align: center;
 }
 p {
 	font-family: sans-serif;
-	color: #FFFFFF;
 	font-size: 18px;
+	color: #FFFFFF
 }
+.blackh1{
+    color: black;
+}
+
+.blackp{
+	color: black;
+	margin: 3%;
+}
+.Sponsors{
+	margin-left: 20%
+}
+
 div.cell {
 	margin: 10px;
 	padding-left: 15%;
 	padding-right: 15%;
     font-size: 15px;
+}
+.containguests{
+	padding-left: 20%;
+}
+
+div.bene {
+	padding-left: 45%;
+	padding-right: 15%;
+    font-size: 15px;
+}
+	
+.peoplethumb {
+    float: left;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 15px;
+}
+
+.guest {
+	float: left;
+    width: 50%;
+	min-height: 50%, auto;
+    margin-left: 10%;
+    background: #ecf0f1;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 1px black;
+	position: relative;
 
 }
+
 h1.head {    
 	text-align: center;
     font-size: 3.8rem;
@@ -408,16 +456,16 @@ h1.head {
     margin: 2em auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-h1.boarder {
+h1.boarder {    
 	text-align: center;
-	font-size: 4.8rem;
-	font-weight: 300;
-	color: #ffffff;
-	margin: 2em auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    font-size: 3.8rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 2em auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
 	border-top: #C2DFFF 1px solid;
-	border-bottom: #C2DFFF 1px solid;
+    border-bottom: #C2DFFF 1px solid;
 	margin-left: 7%;
 	margin-right: 7%;
 	}
@@ -591,8 +639,7 @@ h1.boarder {
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-	
-	
-	
 
+	
+	
 	
